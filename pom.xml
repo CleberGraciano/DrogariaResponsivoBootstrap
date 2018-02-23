@@ -75,12 +75,7 @@
 			<artifactId>admin-template</artifactId>
 			<version>1.0.0-RC1</version>
 		</dependency>
-		
-		<dependency>
-			<groupId>org.primefaces.extensions</groupId>
-			<artifactId>primefaces-extensions</artifactId>
-			<version>6.0.0</version>
-		</dependency>
+	
 		
 		<dependency>
 			<groupId>org.webjars</groupId>
@@ -94,12 +89,7 @@
 			<version>2.6.1</version>
 		</dependency>
 		
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>5.3.3.Final</version>
-			<scope>compile</scope>
-		</dependency>
+		
 		
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -108,26 +98,9 @@
 			<scope>compile</scope>
 		</dependency>
 		
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.38</version>
-			<scope>compile</scope>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</artifactId>
-			<version>5.2.4.Final</version>
-			<scope>compile</scope>
-		</dependency>	
+			
 
-		<!-- Hibernate Core -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>4.3.11.Final</version>
-		</dependency>
+
 
 		<!-- MySQL Connector -->
 		<dependency>

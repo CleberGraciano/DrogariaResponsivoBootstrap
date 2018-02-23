@@ -6,6 +6,17 @@
 	<session-config>
         <session-timeout>30</session-timeout>
     </session-config>
+    
+    <!-- Nome da Aplicação -->
+	<display-name>Drogaria</display-name>
+	
+	<!-- Pagina Principal -->
+	
+	<welcome-file-list>
+		<welcome-file>pages/principal.xhtml</welcome-file>
+	
+	</welcome-file-list>
+    
     <context-param>
         <param-name>javax.faces.PROJECT_STAGE</param-name>
         <param-value>Development</param-value>
@@ -13,6 +24,12 @@
 	<context-param>
 		<param-name>primefaces.THEME</param-name>
 		<param-value>admin</param-value>
+	</context-param>
+	
+	<!-- Definição do mecanismo de Upload -->
+	<context-param>
+		<param-name>primefaces.UPLOADER</param-name>
+		<param-value>native</param-value>
 	</context-param>
 	
 	<listener>
